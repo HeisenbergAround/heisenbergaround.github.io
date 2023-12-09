@@ -1,0 +1,152 @@
+.wrapper {
+  padding-left: 170px;
+  padding-right: 170px;
+}
+.header {
+  background: #62caec;
+}
+.header-content {
+  color: white;
+}
+.logo-img {
+  text-align: right;
+}
+
+
+.header .logo-row {
+  padding-top: 20px;
+}
+.moreBtn {
+  border-radius: 0 !important;
+}
+.main-content {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.main-contact {
+  background: #ddd;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.form-control {
+  border-radius: 0;
+  border-color: #222;
+}
+.footer {
+  background: #62caec;
+  text-align: center;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.hlogo {
+  animation: fadeIn 2s ease-in-out;
+}
+.cLeft {
+  animation: slideInLeft 1.5s ease-out;
+}
+.cRight {
+  animation: slideInRight 1.5s ease-out;
+}
+.tContent:hover h3 {
+  animation: slideInLeft 1.5s ease-out;
+}
+.tContact:hover h4 {
+  animation: slideInLeft 1s ease-out;
+}
+.contact:hover h4 {
+  animation: slideInLeft 1.5s ease-out;
+}
+
+.btn {
+  background: #ffd429;
+  color: black;
+  border: 1px solid black;
+  padding: 15px; 
+  position: relative;
+  font-size: 14px;
+
+  animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+
+
+
+
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 10px grey;
+}
+
+.btn1 {
+  width: 200px;
+  color: black;
+  animation-name: example;
+}
+
+@keyframes example { 
+  from { 
+      background: #ffd429; 
+  } 
+  to { 
+    background: #74ff29; 
+    top: 5px;
+    font-size: 16px;
+  }
+}
+
+.btn-warning {
+  width: 25%;
+  margin-top: 20px;
+}
+
+
+.animate { 
+width: 100 px; 
+border-radius: 10px; 
+margin:30px auto; 
+background-color: green; 
+text-align: center; 
+line-height: 60px; 
+padding: 0px 30px; 
+font-size: 20px; 
+/*font-weight: bold;*/ 
+box-shadow: 0 7px 10px rgb(184, 94, 94); 
+position: relative; 
+} 
+
+.animate:hover{ 
+background: rgb(214, 124, 20); 
+box-shadow: 0 (184, 94, 94); 
+top: 3px; 
+transition-duration: 3s;
+}
